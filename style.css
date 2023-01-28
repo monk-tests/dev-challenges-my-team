@@ -268,7 +268,14 @@ picture {
 
 @media (min-width: 1200px) {
     .container {
-        max-width: 930px;
+        max-width: 1060px;
+    }
+    main {
+        row-gap: 1rem; /* */
+        grid-template-columns: repeat(3, 264px); /* */
+    }
+    .person {
+        max-width: 264px;
     }
 }
 
